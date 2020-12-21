@@ -1,0 +1,100 @@
+  
+
+  body {
+    background-image: url(backgroundimg.png);
+    background-size: cover;
+    background-color:lightblue;
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .rainbow {
+    display: flex;
+    align-items: center;
+    cursor: url(images/cursorXylophone.png), auto;
+  }
+
+  .red {
+    width: 70px;
+    height: 150px;
+    background-color: red;
+    border: 1px solid white;
+  }
+  
+  .red.active {
+      background-color: crimson;
+  }
+
+  .yellow {
+    width: 70px;
+    height: 200px;
+    background-color: gold;
+    border: 1px solid white;
+  }
+
+  .yellow.active {
+    background-color: goldenrod;
+  }
+
+  .pink {
+    width: 70px;
+    height: 250px;
+    background-color: pink;
+    border: 1px solid white;
+  }
+
+  .pink.active {
+    background-color:palevioletred;
+  }
+
+  .green {
+    width: 70px;
+    height: 300px;
+    background-color: limegreen;
+    border: 1px solid white;
+  }
+
+  .green.active {
+    background-color: forestgreen;
+  }
+
+  .purple {
+    width: 70px;
+    height: 350px;
+    background-color: darkorchid;
+    border: 1px solid white;
+  }
+
+  .purple.active {
+    background-color: darkviolet;
+  }
+
+  .orange {
+    width: 70px;
+    height: 400px;
+    background-color: darkorange;
+    border: 1px solid white;
+  }
+
+  .orange.active {
+    background-color:orangered;
+  }
+  
+  .blue {
+    width: 70px;
+    height: 450px;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+  }
+
+  .blue.active {
+    background-color:dodgerblue;
+  }
+
+
+
+  
